@@ -18,4 +18,4 @@ As part of a job application process, I was given a task to implement a website 
 After finishing the project, I made it available for recruiters to assess by deploying it on GitHub and sharing it through Vercel.
 
 ## Live link
-[Visit the project](https://www.google.com)
+[Visit the project](https://i-phone-photo-academy.vercel.app)

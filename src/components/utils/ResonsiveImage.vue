@@ -16,8 +16,8 @@
 
 <template>
     <picture :class="props.classes">
-        <source media="(min-width: 120em)" :srcset="`src/assets/images/${props.image.xxl}`">
-        <source media="(min-width: 38em)" :srcset="`src/assets/images/${props.image.xl}`">
-        <img :src="`src/assets/images/${props.image.lg}`" class="w-full" :alt="props.alt">
+        <source media="(min-width: 120em)" :srcset="`/images/${props.image.xxl}`">
+        <source media="(min-width: 38em)" :srcset="`/images/${props.image.xl}`">
+        <img :src="`/images/${props.image.lg}`" class="w-full" :alt="props.alt">
     </picture>
 </template>

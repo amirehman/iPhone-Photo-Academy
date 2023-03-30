@@ -15,5 +15,5 @@
 </script>
 
 <template>
-    <img :src="`src/assets/images/${props.src}`" :alt="props.alt" :class="props.classes">
+    <img :src="`/images/${props.src}`" :alt="props.alt" :class="props.classes">
 </template>

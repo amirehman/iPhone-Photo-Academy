@@ -29,7 +29,7 @@
 <template>
     <form @submit.prevent="submitForm" class="space-y-5">
         <div :class="isValidEmail || !focused ? 'border-t-gray' : 'border-[#D41C3D]'" class="input-element relative border pt-3 bg-t-dark-gray rounded-lg w-full md:w-[423px]">
-        <img src="@/assets/images/mail-icon.svg" alt="mail icon" class="absolute flex items-center right-5 top-[1.4rem]">
+        <img src="/images/mail-icon.svg" alt="mail icon" class="absolute flex items-center right-5 top-[1.4rem]">
         <input type="email" autocomplete="off" v-model="email" id="inputField" class="peer bg-transparent p-4 focus:outline-none">
         <label
             for="inputField"
